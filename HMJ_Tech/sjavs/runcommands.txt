@@ -1,0 +1,10 @@
+Koyrir servarin á local host 3000
+
+npm run dev
+
+To deploy with npm run dev.
+
+npm install next react react-dom 
+
+
+node playGame.js

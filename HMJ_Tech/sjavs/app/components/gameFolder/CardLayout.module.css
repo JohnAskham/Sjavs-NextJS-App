@@ -1,0 +1,42 @@
+/* CardLayout.module.css */
+
+.hand {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between cards */
+
+}
+
+/* Player 1: Bottom Center */
+.player1 {
+  bottom: 5%; /* Adjust from 5% to ensure no clipping */
+  left: 50%;
+  transform: translateX(-50%);
+  flex-direction: row;
+
+}
+
+/* Player 2: Right Center */
+.player2 {
+  top: 50%;
+  right: 25%; /* Adjust as needed */
+  transform: translateY(-50%);
+  flex-direction: column;
+}
+
+/* Player 3: Top Center */
+.player3 {
+  top: 15%; /* Adjust from 5% to avoid clipping */
+  left: 50%;
+  transform: translateX(-50%);
+  flex-direction: row;
+}
+
+/* Player 4: Left Center */
+.player4 {
+  top: 50%;
+  left: 25%; /* Adjust as needed */
+  transform: translateY(-50%);
+  flex-direction: column;
+}
